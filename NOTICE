@@ -1,0 +1,84 @@
+This jar file include the binaries of other projects under their licenses. (See LICENSE-DEPENDENCIES)
+Some of these projects include a NOTICE which are listed below.
+
+In order to make them compatible with minecraft running environment (to avoid versions conflict), some included librairies's binaries have been relocated :
+Binaries which refers to these files (like lavaplayer by sedmelluq) may have been altered to update the references during the relocation process.
+-----------------------------------------------------------------------------------------------------
+com.fasterxml.jackson.annotation.* -> dependencies.com.fasterxml.jackson.annotation.*
+com.fasterxml.jackson.core.* -> dependencies.com.fasterxml.jackson.core.*
+com.fasterxml.jackson.databind.* -> dependencies.com.fasterxml.jackson.databind.*
+org.apache.common.codec.* -> dependencies.org.apache.common.codec.*
+org.apache.common.io.* -> dependencies.org.apache.common.io.*
+org.apache.common.logging.* -> dependencies.org.apache.common.logging.*
+org.apache.http.* -> dependencies.org.apache.http.*
+org.jsoup.* -> dependencies.org.jsoup.*
+org.sf4j.* -> dependencies.org.sf4j.*
+
+---------------------------------------------------------------------------------
+Apache Commons IO
+Copyright 2002-2017 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+---------------------------------------------------------------------------------
+Apache Commons Logging
+Copyright 2003-2014 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+---------------------------------------------------------------------------------
+Apache Commons Codec
+Copyright 2002-2017 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+src/test/org/apache/commons/codec/language/DoubleMetaphoneTest.java
+contains test data from http://aspell.net/test/orig/batch0.tab.
+Copyright (C) 2002 Kevin Atkinson (kevina@gnu.org)
+
+===============================================================================
+
+The content of package org.apache.commons.codec.language.bm has been translated
+from the original php source code available at http://stevemorse.org/phoneticinfo.htm
+with permission from the original authors.
+Original source copyright:
+Copyright (c) 2008 Alexander Beider & Stephen P. Morse.
+
+---------------------------------------------------------------------------------
+Apache HttpCore
+Copyright 2005-2019 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+---------------------------------------------------------------------------------
+Apache HttpClient
+Copyright 1999-2019 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+---------------------------------------------------------------------------------
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers, as well as supported
+commercially by FasterXML.com.
+
+## Licensing
+
+Jackson core and extension components may be licensed under different licenses.
+To find the details that apply to this artifact see the accompanying LICENSE file.
+For more information, including possible other licensing options, contact
+FasterXML.com (http://fasterxml.com).
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+

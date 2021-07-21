@@ -1,0 +1,7 @@
+com.yuti.regionbgm
+com.yuti.regionbgm.client.config
+com.yuti.regionbgm.client.handlers
+com.yuti.regionbgm.client.music
+com.yuti.regionbgm.network
+com.yuti.regionbgm.server.api
+com.yuti.regionbgm.server.events
